@@ -29,6 +29,7 @@ formEl.addEventListener("submit", () => {
   } else {
     score--;
     updateLocalStorage();
+    alert(`The correct Answer is ${correctAns}`);
   }
 });
 
